@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+    <Spinner
+        android:id="@+id/animation_sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@android:color/white"></Spinner>
+
+    <Button
+        android:id="@+id/other_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="打开Other窗口"></Button>
+</LinearLayout>
